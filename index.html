@@ -6,18 +6,30 @@
     <title>Document</title>
     <style>
         table,th,td {
-            border: 5px solid black;
+            border: 5px solid rgb(229, 234, 233);
             border-collapse: collapse;
-            height: 50px;;
-            width:500px;
+            height: 70px;;
+            width:800px;
+            text-align:center;
+            color:white;
+            font-size:27px;
 
         }
     </style>
     <link rel="stylesheet" href="style.css">
+   <style>
+    label{
+        color:rgb(224, 216, 216);
+        font-size:20px;
+        text-align:center;
+    }
+   </style>
+  
 </head>
 
 
-<body>
+<body id="mn">
+   
     <pre>
 
 
@@ -40,7 +52,7 @@
 
 <table>
     <tr>
-        <th>Name</th>
+        <th color:white>Name</th>
         <th>Class</th>
         <th>Branch</th>
         <th>Section</th>
@@ -61,11 +73,9 @@
 <hr>
   
   <div id="kil">FEEDBACK FORM</div>
-<br><br>
   <form action="action.php">
-                                                                        <input type="text" placeholder="username" height="100" width="200">
-    <br><br>
-                                                                        <input type="password" placeholder="password" height="100" width="200">
+    <input type="text" placeholder="username" height="100" width="200"> <br>
+    <input type="password" placeholder="password" height="100" width="200">
     <hr><hr>
 <div id="gt">
 SELECT CLASS
@@ -89,11 +99,12 @@ SELECT CLASS
 
 <div id="rock">SELECT SUBJECT</div>
 <br>
-<label for="html" height="100">
+
+<label for="html" height="200" style="color:pink">
 <input type="checkbox" value="html" name="subject" id="101">html
 </label>
 <label for="javascript">
-<input type="checkbox" value="javascript" name="subject" id="102">javascript
+<input  type="checkbox" value="javascript" name="subject" id="102">javascript
 </label>
 <label for="cpp">
 <input type="checkbox" value="cpp" name="subject" id="103">cpp
@@ -104,6 +115,7 @@ SELECT CLASS
 <label for="ai/ml">
 <input type="checkbox" value="ai/ml" name="subject" id="105">ai/ml
 </label>
+
 <hr>
 <div id="outer">
 Select your State
@@ -130,7 +142,9 @@ Select your city
     
 </select> <br>
 <hr>
-<textarea name="feedback" id="101" Placeholder="please give your valuable feedback here" rows="7">feedback</textarea> <br>
+<div id="fg">
+<textarea name="feedback" id="101" Placeholder="please give your valuable feedback here" column="60" columns="1500" rows="5">feedback</textarea>
+</div> <br>
 <hr>
 <div id="button">
 <input type="submit" value="submit">
@@ -138,19 +152,21 @@ Select your city
 <hr>
 <iframe src="https://www.innerve.tech/" height="900" width="2000"></iframe>
 
-<video src="myvid.mp4" height="100" width="1500" controls  autoplay loop allow = " accelerometer ; loop ;clipboard-wrtite;encrypted-media;gyroscope;picture-in-picture; autoplay">hooka bar</video>
-    <hr>
+<video src="myvideo.mp4" controls loop autoplay height="100" width="1800">my video</video>
+
+
 <pre>
 
 
-    <hr>
-
+  <hr>
 
 </pre>
 
-<h1> <pre>                                                               BY</pre></h1>
-<H1><PRE>                                                           JITESH YADAV</PRE></H1>
-  
+<div id="ik">
+    BY
+    JITESH YADAV
+</div>
+<
 <PRE>
 
 
@@ -158,5 +174,6 @@ Select your city
 
 
 </PRE>
+
 </body>
 </html>

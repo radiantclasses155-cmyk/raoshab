@@ -1,21 +1,28 @@
 #button{
+    text-align:center;
     font-size:30px;
+    text-shadow:white;
+    text-size-adjust: 50px;
 }
 #inner{
     font-size:30px;
     text-decoration:wavy underline ;
+    color:white;
 }
 #outer{
     font-size:30px;
     text-decoration: wavy underline;
+    color:white;
 }
 #rock{
     font-size: 30px;
     text-decoration: wavy underline;
+    color:beige;
 }
 #kil{
     font-size: 40px;
     text-decoration: dotted underline;
+    color:aliceblue;
 }
 #hi{
     font-size: 70px;
@@ -24,14 +31,34 @@
     text-align: center;
     text-decoration:dotted underline;
     text-transform: full-width;
-
+    
 }
 #gt{
     font-size: 30px;
     text-decoration:wavy underline;
+    color:white;
 }
 #be{
-    font-size: 40px;
-    text-shadow:3px 3px #002aff;
+    font-size: 55px;
+    text-shadow:5px 5px #0c8691;
     text-decoration: dotted underline;
+    color:white;
+}
+#mn{
+    background-image: url(cars.jpg);
+    zoom:0
+}
+#ik{
+    text-align:center;
+    color:white;
+    font-size:50px;
+text-shadow:3px 3px rgb(93, 17, 30);
+}
+#fg{
+    text-align:center;
+    color:white;
+    
+}
+#label{
+    color:white;
 }
