@@ -1,0 +1,19 @@
+#button{
+    font-size:30px;
+}
+#inner{
+    font-size:30px;
+    text-decoration:wavy underline ;
+}
+#outer{
+    font-size:30px;
+    text-decoration: wavy underline;
+}
+#rock{
+    font-size: 30px;
+    text-decoration: wavy underline;
+}
+#kil{
+    font-size: 40px;
+    text-decoration: dotted underline;
+}

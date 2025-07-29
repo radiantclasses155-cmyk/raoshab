@@ -10,6 +10,7 @@
             border-collapse: collapse;
         }
     </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 
@@ -56,7 +57,7 @@
 </table>
 
   </pre>
-  <h2>FEEDBACK FORM</h2>
+  <div id="kil">FEEDBACK FORM</div>
 
   <PRE>
 
@@ -84,8 +85,11 @@
 
 <hr>
 
-<p>SELECT SUBJECT</p>
+<div id="rock">
+    SELECT SUBJECT
 
+</div>
+<br>
 <label for="html" height="100">
 <input type="checkbox" value="html" name="subject" id="101">html
 </label>
@@ -102,7 +106,10 @@
     <input type="checkbox" value="ai/ml" name="subject" id="105">ai/ml
 </label>
 <hr>
+<div id="outer">
 Select your State
+</div>
+<br>
 <select name="state" id="state" height="100"> 
     <option value="Haryana">haryana</option>
     <option value="Punjab">punjab</option>
@@ -112,8 +119,10 @@ Select your State
 </select>
 
 <hr>
-
+<div id="inner">
 Select your city
+</div>
+<br>
 <select name="city" id="city" height="100">
     <option value="Delhi">Delhi</option>
     <option value="Mumabai">Mumbai</option>
@@ -124,9 +133,9 @@ Select your city
 <hr>
 <textarea name="feedback" id="101" Placeholder="please give your valuable feedback here" rows="7">feedback</textarea> <br>
 <hr>
-
+<div id="button">
 <input type="submit" value="submit">
-
+</div>
 <hr>
 <iframe src="https://www.innerve.tech/" height="900" width="2000"></iframe>
 
