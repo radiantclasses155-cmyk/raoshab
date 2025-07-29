@@ -17,3 +17,21 @@
     font-size: 40px;
     text-decoration: dotted underline;
 }
+#hi{
+    font-size: 70px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow:6px 6px #04ff00;
+    text-align: center;
+    text-decoration:dotted underline;
+    text-transform: full-width;
+
+}
+#gt{
+    font-size: 30px;
+    text-decoration:wavy underline;
+}
+#be{
+    font-size: 40px;
+    text-shadow:3px 3px #002aff;
+    text-decoration: dotted underline;
+}
