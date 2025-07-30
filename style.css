@@ -50,15 +50,31 @@
 }
 #ik{
     text-align:center;
-    color:white;
+    color:rgba(255, 255, 255, 0.546);
     font-size:50px;
 text-shadow:3px 3px rgb(93, 17, 30);
 }
 #fg{
     text-align:center;
     color:white;
+    border-style:dotted;
+    border-width:4px;
+    border-color:grey;
+    font-size:4px;
+    
     
 }
 #label{
     color:white;
+}
+#zx{
+    border-width:5px;
+    border-style:dotted;
+    border-color:grey;
+}
+#cv {
+    border-width: 5px;
+    border-style: dotted;
+    border-color:grey;
+
 }
