@@ -1,19 +1,18 @@
-#button{
+#div3{
     text-align:center;
-    font-size:30px;
-    text-shadow:white;
-    text-size-adjust: 50px;
-    
+    color:#0f1111ae;
 }
 #inner{
     font-size:30px;
     text-decoration:wavy underline ;
-    color:white;
+    color:rgb(250, 246, 246);
+    display:flex;
 }
 #outer{
     font-size:30px;
     text-decoration: wavy underline;
-    color:white;
+    color:rgb(235, 227, 227);
+    display:flex;
 }
 #rock{
     font-size: 30px;
@@ -28,7 +27,7 @@
 #hi{
     font-size: 70px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-shadow:6px 6px #04ff00;
+    text-shadow:4px 4px #04ff00;
     text-align: center;
     text-decoration:dotted underline;
     text-transform: full-width;
@@ -38,33 +37,36 @@
     font-size: 30px;
     text-decoration:wavy underline;
     color:white;
+    display:flex;
 }
 #be{
     font-size: 55px;
     text-shadow:5px 5px #0c8691;
     text-decoration: dotted underline;
     color:white;
+  
 }
 #mn{
     background-image: url(cars.jpg);
-    zoom:0
+
+
 }
 #ik{
     text-align:center;
     color:rgba(255, 255, 255, 0.546);
     font-size:50px;
 text-shadow:3px 3px rgb(93, 17, 30);
+
 }
-#fg{
+#div2{
     text-align:center;
-    color:white;
+    text-shadow:4px rgb(20, 16, 16);
     border-style:dotted;
     border-width:4px;
-    border-color:grey;
+    border-color:rgb(78, 77, 77);
     font-size:4px;
-    
-    
 }
+
 #label{
     color:white;
 }
@@ -85,14 +87,14 @@ text-shadow:3px 3px rgb(93, 17, 30);
 *{
     margin :0;
     padding:0;
-    color :white;
-    
+       
 }
 
 #navbar{
     height:60px;
     background-color:#0f1111ae;
     display:flex;
+
 }
 button{
     background-color:#f08804;
@@ -104,8 +106,20 @@ button{
 a{
     margin-right:200px;
     text-decoration:none;
-    margin-left:80px;
+    margin-right:90px;
+    padding-left:100px;
+    display:flex;
+    color:white;
 }
 #footer{
     text-align:center;
+    background-color: #0f1111ae;
+}
+#city{
+    display:flex;
+    color:black;
+}
+#state{
+    display:flex;
+    color:black;
 }
