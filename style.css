@@ -114,6 +114,7 @@ a{
 #footer{
     text-align:center;
     background-color: #0f1111ae;
+    color:beige;
 }
 #city{
     display:flex;
