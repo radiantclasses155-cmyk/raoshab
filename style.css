@@ -3,6 +3,7 @@
     font-size:30px;
     text-shadow:white;
     text-size-adjust: 50px;
+    
 }
 #inner{
     font-size:30px;
@@ -31,7 +32,7 @@
     text-align: center;
     text-decoration:dotted underline;
     text-transform: full-width;
-    
+    color:black;
 }
 #gt{
     font-size: 30px;
@@ -71,22 +72,27 @@ text-shadow:3px 3px rgb(93, 17, 30);
     border-width:5px;
     border-style:dotted;
     border-color:grey;
+    display:flex;
+    padding:3px 3px 3px 3px;
 }
 #cv {
     border-width: 5px;
     border-style: dotted;
     border-color:grey;
+    display:flex;
 
 }
 *{
     margin :0;
     padding:0;
     color :white;
+    
 }
 
 #navbar{
     height:60px;
-    background-color:#0f111156;
+    background-color:#0f1111ae;
+    display:flex;
 }
 button{
     background-color:#f08804;
